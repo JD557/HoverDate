@@ -74,7 +74,7 @@ function showCalendar(event,dateString,formatString) {
 			if (d==day) {c+=" targetCell";}
 			if (d==today.getDate() &&
 			    month==today.getMonth() &&
-				year==today.getYear()) {c+=" todayCell";}
+				year==today.getFullYear()) {c+=" todayCell";}
 			outputString+="<td class='"+c+"'>"+d+"</td>";
 			d++;
 		}
