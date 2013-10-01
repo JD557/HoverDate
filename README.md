@@ -7,9 +7,9 @@ Usage
 -----
 
 To use HoverDate.js, simply include the hoverdate.js file and call
-    HoverDate(element,dateFormatString)
-Where `element` is the id of the element that you want to parse and
-`dateFormatString` is the date format (for example "DD/MM/YYYY").
+`HoverDate(element,dateFormatString)`, where `element` is the id
+of the element that you want to parse and `dateFormatString`
+is the date format (for example "DD/MM/YYYY").
 
 You can see an usage example in the `example.html` file.
 
