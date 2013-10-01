@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>HoverDate.js Example</title>
+		<script src="hoverdate.js"></script>
+		<style>
+			.HoverDate {
+				text-decoration:underline;
+			}
+			#HoverDateCalendar {
+				background-color:#CCC;
+				border:3px solid #333;
+				box-shadow:2px 2px 5px #666;
+			}
+			#HoverDateCalendar table{
+				border-spacing:0;
+			}
+			#HoverDateCalendar thead{
+				background-color:#88C;
+				font-weight:bold;
+			}
+			#HoverDateCalendar thead th{
+				border-bottom:2px solid #333;
+			}
+			#HoverDateCalendar .targetCell {
+				background-color:#C88;
+				font-weight:bold;
+			}
+			#HoverDateCalendar .todayCell {
+				background-color:#8C8;
+				font-weight:bold;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>HoverDate.js Example</h1>
+		<div id="contents">
+			<p>
+				This is a simple HoverDate.js example so that you can see how
+				to use the code and how to style your calendars with CSS.
+			</p>
+			<p>
+				To use HoverDate in this example, we simply call
+				<pre>HoverDate("contents","DD/MM/YYYY");</pre>
+			</p>
+			<p>
+				Try hovering a date like 25/12/2013.
+			</p>
+		</div>
+		<script>
+			HoverDate("contents","DD/MM/YYYY");
+		</script>
+	</body>
+</html>
